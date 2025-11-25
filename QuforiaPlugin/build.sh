@@ -19,7 +19,7 @@ echo -e "${GREEN}=====================================${NC}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BUILD_DIR="$SCRIPT_DIR/build"
 UNITY_PLUGINS_DIR="$SCRIPT_DIR/../Assets/Plugins/Android/libs/arm64-v8a"
-NDK_PATH="/Applications/Unity/Hub/Editor/6000.0.61f1/PlaybackEngines/AndroidPlayer/NDK"
+NDK_PATH="D:/Unity/Hub/6000.0.61f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
 
 # Check NDK exists
 if [ ! -d "$NDK_PATH" ]; then
@@ -41,7 +41,7 @@ cd "$BUILD_DIR"
 
 # Configure CMake
 echo -e "${YELLOW}Configuring CMake for arm64-v8a...${NC}"
-cmake \
+cmake -G "Unix Makefiles" \
   -DCMAKE_TOOLCHAIN_FILE="$NDK_PATH/build/cmake/android.toolchain.cmake" \
   -DANDROID_ABI=arm64-v8a \
   -DANDROID_PLATFORM=android-29 \
