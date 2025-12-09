@@ -2,6 +2,8 @@
   "dependencies": {
     "com.meta.xr.mrutilitykit": "81.0.0",
     "com.meta.xr.sdk.core": "81.0.0",
+    "com.meta.xr.sdk.interaction": "81.0.0",
+    "com.meta.xr.sdk.interaction.ovr": "81.0.0",
     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.collab-proxy": "2.10.0",
