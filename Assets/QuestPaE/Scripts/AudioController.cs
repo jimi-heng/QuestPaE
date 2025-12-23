@@ -1,34 +1,36 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
-using Unity.VisualScripting;
 
-public class AudioController : MonoBehaviour
+namespace QuestPaE.Scripts
 {
-    private AudioSource audioSource;
-    private Coroutine audioCoroutine;
-
-    public float delayTime = 0f;
-
-    void Start()
+    public class AudioController : MonoBehaviour
     {
-        audioSource = GetComponent<AudioSource>();
-    }
+        private AudioSource audioSource;
+        private Coroutine audioCoroutine;
 
-    public void StartAudio()
-    {
-        audioCoroutine = StartCoroutine(PlayAudioAfterDelay());
-    }
+        public float delayTime = 0f;
 
-    private IEnumerator PlayAudioAfterDelay()
-    {
-        yield return new WaitForSeconds(delayTime);
+        private void Start()
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
 
-        audioSource.Play();
-    }
+        public void StartAudio()
+        {
+            audioCoroutine = StartCoroutine(PlayAudioAfterDelay());
+        }
 
-    public void StopAudio()
-    {
-        StopCoroutine(audioCoroutine);
-        audioSource.Stop();
+        private IEnumerator PlayAudioAfterDelay()
+        {
+            yield return new WaitForSeconds(delayTime);
+
+            audioSource.Play();
+        }
+
+        public void StopAudio()
+        {
+            StopCoroutine(audioCoroutine);
+            audioSource.Stop();
+        }
     }
 }

@@ -1,29 +1,31 @@
 using UnityEngine;
 using System.Collections;
 
-public class RotateObject : MonoBehaviour
+namespace QuestPaE.Scripts
 {
-    public float rotationDuration = 2f;
-
-    public void apply()
+    public class RotateObject : MonoBehaviour
     {
-        StartCoroutine(RotateOverTime(180f));
-    }
+        public float rotationDuration = 2f; // 旋转时间
 
-    private IEnumerator RotateOverTime(float targetAngle)
-    {
-        float startAngle = transform.rotation.eulerAngles.y;
-        float elapsedTime = 0f;
-
-        while (elapsedTime < rotationDuration)
+        public void Apply()
         {
-            elapsedTime += Time.deltaTime;
-            float currentAngle = Mathf.Lerp(startAngle, startAngle + targetAngle, elapsedTime / rotationDuration);
-            transform.rotation = Quaternion.Euler(0, currentAngle, 0);
-            yield return null;
+            StartCoroutine(RotateOverTime(180f));
         }
 
-        transform.rotation = Quaternion.Euler(0, startAngle + targetAngle, 0);
+        private IEnumerator RotateOverTime(float targetAngle)
+        {
+            float startAngle = transform.rotation.eulerAngles.y;
+            float elapsedTime = 0f;
+
+            while (elapsedTime < rotationDuration)
+            {
+                elapsedTime += Time.deltaTime;
+                float currentAngle = Mathf.Lerp(startAngle, startAngle + targetAngle, elapsedTime / rotationDuration);
+                transform.rotation = Quaternion.Euler(0, currentAngle, 0);
+                yield return null;
+            }
+
+            transform.rotation = Quaternion.Euler(0, startAngle + targetAngle, 0);
+        }
     }
 }
-

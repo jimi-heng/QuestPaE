@@ -1,13 +1,17 @@
 using UnityEngine;
 
-public class DisappearOnTrigger : MonoBehaviour
+namespace QuestPaE.Scripts
 {
-    public void changeVisible()
+    public class DisappearOnTrigger : MonoBehaviour
     {
-        if (gameObject.activeSelf)
+        public void ChangeVisible()
         {
-            gameObject.SetActive(false);
-        }else
-            gameObject.SetActive(true);
+            if (gameObject.activeSelf)
+            {
+                gameObject.SetActive(false);
+            }
+            else
+                gameObject.SetActive(true);
+        }
     }
 }

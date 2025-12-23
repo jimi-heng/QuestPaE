@@ -2456,7 +2456,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1469705850}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3362,7 +3362,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4111,7 +4111,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6499,7 +6499,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 410703844}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6523,7 +6523,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 181755300}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7915,7 +7915,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 286800792}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7939,7 +7939,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 524166907}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9143,7 +9143,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211276671}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9155,7 +9155,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 774129801}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9167,7 +9167,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 354783505}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11253,7 +11253,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1322517050}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11982,7 +11982,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 208295316}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14257,7 +14257,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 429861168}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14269,7 +14269,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 749478290}
         m_TargetAssemblyTypeName: OffectController, Assembly-CSharp
-        m_MethodName: OffectControl
+        m_MethodName: OffsetControl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15050,7 +15050,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15604,7 +15604,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16913,7 +16913,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1223951392}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17787,7 +17787,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 784126171}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21193,7 +21193,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 887601683}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21442,7 +21442,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733980195}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21723,7 +21723,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22760,7 +22760,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1773812923}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23210,7 +23210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2127249897}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23459,7 +23459,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 862354151}
         m_TargetAssemblyTypeName: RotateObject, Assembly-CSharp
-        m_MethodName: apply
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24084,7 +24084,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1887020257}
         m_TargetAssemblyTypeName: DisappearOnTrigger, Assembly-CSharp
-        m_MethodName: changeVisible
+        m_MethodName: ChangeVisible
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
